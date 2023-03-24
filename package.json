@@ -1,21 +1,22 @@
 {
   "name": "blurts-gstatic-logos",
-  "version": "1.0.0",
   "description": "",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "dependencies": {
+    "@11ty/eleventy-fetch": "^4.0.0",
+    "bytes": "^3.1.2",
+    "image-size": "^1.0.2"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "license": "MPL-2.0",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "clean": "rm  -rf .cache",
     "start": "time node index > fetch.log",
     "stats": "node stats > stats.md",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Peter deHaan <peter@deseloper.com>",
-  "license": "MPL-2.0",
-  "dependencies": {
-    "@11ty/eleventy-fetch": "^4.0.0",
-    "bytes": "^3.1.2",
-    "image-size": "^1.0.2"
-  }
+  "type": "module"
 }
